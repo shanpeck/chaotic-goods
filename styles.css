@@ -1,0 +1,93 @@
+body {
+    background-color: #A9DCB2;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h2 {
+    font-family: 'Copperplate', fantasy;
+    color: darkgreen;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 30px;
+} 
+
+header, .form-label, .text {
+    color: white;
+}
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.welcome-text {
+    color: white;
+    font-family: 'Papyrus', fantasy;
+    text-align: center;
+    padding-right: 150px;
+    font-size: 100px; 
+}
+
+.text {
+    color: darkgreen;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Console', monospace;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #367040;
+    padding-top: 20px;
+    z-index: 1000;
+    font-family: 'Lucida Console', monospace;
+    font-size: 17px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    color: black;
+    border-radius: 5px;
+}
+.social-icons {
+    text-align: center;
+    padding-top: 20px;
+}
+.content {
+    margin-right: 200px;
+    padding: 15px;
+}
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    border-radius: 8px;
+}
+
+table {
+    max-width
